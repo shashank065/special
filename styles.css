@@ -1,0 +1,84 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    height: 70px; /* Adjust height */
+    padding: 20px 0; /* Add padding */
+    background: linear-gradient(200deg, #333, #444); /* Linear gradient background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Box-shadow for header */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-right: 30px;
+    text-align: left;
+}
+
+nav ul li {
+    display: inline;
+    margin: 60px;
+}
+nav ul li:first-child a{
+    text-decoration: none;
+    background-color: rgb(233, 228, 228);
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hero img {
+    height: 500px;
+    width: 100%;
+}
+.gallery {
+    padding: 20px; /* Adjust padding around gallery */
+    background: linear-gradient(180deg, #f0f0f0, #e0e0e0); /* Linear gradient background */
+    display: flex;
+    direction: row;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Box-shadow around gallery */
+}
+
+.gallery img {
+    width: 600px; /* Full width */
+    height: 50; /* Maintain aspect ratio */
+    display: block;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box-shadow around images */
+}
+
+
+.footer {
+    width: 100%;
+    background-color: black;
+    height: 600px;
+    align-items: center; /* Vertically center content */
+ 
+}
+
+.footer img {
+    height: 600px;
+    width: 40%;
+   margin-left:1000px;
+   margin-top: -460px;
+  
+}
+
+.footer p {
+    width: 50%; /* Adjust width to occupy space next to image */
+    color: #f0f0f0;
+    display: inline-block; 
+    margin-top: 500px;
+    font-size: 16px;
+    line-height: 1.2; /* Improve readability */
+}
